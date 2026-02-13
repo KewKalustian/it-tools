@@ -72,7 +72,7 @@ declare module '@vue/runtime-core' {
     DockerRunToDockerComposeConverter: typeof import('./src/tools/docker-run-to-docker-compose-converter/docker-run-to-docker-compose-converter.vue')['default']
     DynamicValues: typeof import('./src/tools/benchmark-builder/dynamic-values.vue')['default']
     Editor: typeof import('./src/tools/html-wysiwyg-editor/editor/editor.vue')['default']
-    EmailNormalizer: typeof import('./src/tools/email-normalizer/email-normalizer.vue')['default']
+
     EmojiCard: typeof import('./src/tools/emoji-picker/emoji-card.vue')['default']
     EmojiGrid: typeof import('./src/tools/emoji-picker/emoji-grid.vue')['default']
     EmojiPicker: typeof import('./src/tools/emoji-picker/emoji-picker.vue')['default']
@@ -149,7 +149,7 @@ declare module '@vue/runtime-core' {
     PdfSignatureChecker: typeof import('./src/tools/pdf-signature-checker/pdf-signature-checker.vue')['default']
     PdfSignatureDetails: typeof import('./src/tools/pdf-signature-checker/components/pdf-signature-details.vue')['default']
     PercentageCalculator: typeof import('./src/tools/percentage-calculator/percentage-calculator.vue')['default']
-    PhoneParserAndFormatter: typeof import('./src/tools/phone-parser-and-formatter/phone-parser-and-formatter.vue')['default']
+ 
     QrCodeGenerator: typeof import('./src/tools/qr-code-generator/qr-code-generator.vue')['default']
     RandomPortGenerator: typeof import('./src/tools/random-port-generator/random-port-generator.vue')['default']
     RegexMemo: typeof import('./src/tools/regex-memo/regex-memo.vue')['default']
